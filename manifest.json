@@ -2,7 +2,7 @@
   "name": "உங்கள் ஆசிரியர்",
   "short_name": "ஆசிரியர்",
   "description": "Tamil School Quiz App - வினாடி வினா பயிற்சி",
-  "start_url": "./ungal_aasiriyar_v2.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#3b82f6",

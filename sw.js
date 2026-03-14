@@ -3,7 +3,7 @@ const CACHE_NAME = 'ungal-aasiriyar-v2.1';
 
 // Only cache same-origin app shell files on install
 const APP_SHELL = [
-  './ungal_aasiriyar_v2.html',
+  './index.html',
   './manifest.json'
 ];
 
@@ -89,7 +89,7 @@ self.addEventListener('fetch', event => {
           caches.open(CACHE_NAME).then(cache => cache.put(event.request, response.clone()));
         }
         return response;
-      }).catch(() => caches.match('./ungal_aasiriyar_v2.html'));
+      }).catch(() => caches.match('./index.html'));
     })
   );
 });
